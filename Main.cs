@@ -32,6 +32,7 @@ namespace myClass
             try
             {
                 cliente.Send(mensaje);  // enviamos el mensaje
+                MsgBox("Correo enviado exitosamente!");
             }
             catch (System.Exception)
             {
